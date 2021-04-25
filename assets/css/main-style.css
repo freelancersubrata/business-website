@@ -1,0 +1,291 @@
+/*========================================================
+    Template Name: PSD TO HTML5 CONVERSION WEBSITE 02
+    Template URI:
+    Description: An Awesome Creative Business Template
+    Template Version: 1.0
+    Template Author: Subrata Saha
+    Author URI: 
+    Support: subrata.deshbazarbd.com
+========================================================*/
+
+/*========================================================
+    
+    
+    CSS INDEX
+    ===========    
+    
+    1. COMMON CSS
+    2. HERO 
+    3. ABOUT
+    
+========================================================*/
+
+
+/*========================================================
+    
+    1. COMMON CSS
+    
+========================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+}
+
+a, 
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    margin-top: 0;
+}
+
+/* REUSUABLE COMPONENTS */
+
+.row {
+    width: 1180px;
+    margin: auto;
+}
+
+h1, 
+h2, 
+h3, 
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    font-size: 700%;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+}
+
+h2 {
+    font-size: 400%;
+    color: #000;
+}
+
+section, #about {
+    padding: 120px 0;
+}
+    
+
+/*========================================================
+    
+    2. HERO
+    
+========================================================*/
+
+#hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/hero-bg.jpg) no-repeat center / cover;
+}
+
+.hero-text-box {
+    width: 1180px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.hero-text-box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    margin-top: 15px;
+    
+}
+
+.hero-cta-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    margin-top: 120px;  
+}
+
+.hero-cta-btn a {
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+
+.hero-cta-btn .btn1:visited,
+.btn1 {
+    width: 203px; 
+    background: #fff;
+    color: #f7600e;
+    display: inline-block;
+    font-size: 160%;
+    
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+
+
+.hero-cta-btn .btn2:visited,
+.btn2 {
+    width: 203px; 
+    background: #f7600e
+    color: #fff;
+    display: inline-block;
+    font-size: 160%;
+   
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid #f7600e;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1.5px;   
+}
+
+.hero-cta-btn .btn1:hover {
+    background: #f7600e;
+    color: #fff;
+    border: 1px solid #f7600e;
+}
+
+
+.hero-cta-btn .btn2:hover {
+    background: #33ff55;
+    color: red;
+    border: 1px solid #33ff55;
+}
+
+
+.logo {
+    height: 22px;
+    margin-top: 60px;
+    float: left;
+}
+.nav-icon {
+    font-size: 400%;
+    float: right;
+    margin-top: 45px;
+    color: #fff;
+}
+
+span {
+    font-size: 45%;
+    display: block;
+    float: left;
+    margin-top: 3px;
+    padding: 10px;
+}
+
+/*========================================================
+    
+    2. ABOUT
+    
+========================================================*/
+
+#about {
+    height: 500px;
+    background: #F6F6F6;
+}
+
+.grid-about-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    margin: 0 200px;
+
+}
+
+.grid-about-items {
+    padding: 0 25px;
+}
+
+.grid-about-items ion-icon {
+    color: #f7600e;
+    font-size: 16px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+.grid-about-items h2 {
+    font-size: 130%;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.grid-about-items p {
+    font-size: 100%;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
